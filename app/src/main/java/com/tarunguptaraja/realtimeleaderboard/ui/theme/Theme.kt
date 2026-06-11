@@ -1,6 +1,5 @@
 package com.tarunguptaraja.realtimeleaderboard.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -9,35 +8,52 @@ import androidx.compose.material3.dynamicDarkColorScheme
 import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 
-private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+private val LightColorScheme = lightColorScheme(
+    primary = Blue700,
+    onPrimary = Color.White,
+    primaryContainer = Blue100,
+    onPrimaryContainer = Blue800,
+    secondary = Amber800,
+    onSecondary = Color.White,
+    secondaryContainer = Amber50,
+    onSecondaryContainer = Amber900,
+    background = Color(0xFFF0F4C3), // Soft light tint background
+    onBackground = Color(0xFF102A43),
+    surface = Color.White,
+    onSurface = Color(0xFF102A43),
+    surfaceVariant = Blue50,
+    onSurfaceVariant = Color(0xFF486581),
+    error = RankDown,
+    onError = Color.White
 )
 
-private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
-
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
+private val DarkColorScheme = darkColorScheme(
+    primary = Blue200,
+    onPrimary = Color(0xFF102A43),
+    primaryContainer = Blue800,
+    onPrimaryContainer = Blue100,
+    secondary = Amber300,
+    onSecondary = Color(0xFF102A43),
+    secondaryContainer = Amber900,
+    onSecondaryContainer = Amber50,
+    background = Color(0xFF0F172A), // Slate 900
+    onBackground = Color(0xFFF8FAFC),
+    surface = Color(0xFF1E293B),    // Slate 800
+    onSurface = Color(0xFFF8FAFC),
+    surfaceVariant = Color(0xFF334155), // Slate 700
+    onSurfaceVariant = Color(0xFF94A3B8),
+    error = RankDown,
+    onError = Color.White
 )
 
 @Composable
 fun RealTimeLeaderboardTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    // Set default dynamicColor to false to ensure our custom theme is shown by default
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {

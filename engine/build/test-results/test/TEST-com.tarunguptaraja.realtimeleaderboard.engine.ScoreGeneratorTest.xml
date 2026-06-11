@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tarunguptaraja.realtimeleaderboard.engine.ScoreGeneratorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-06-11T07:21:33.158Z" hostname="LAPTOP-ITCJA2MM" time="0.182">
+  <properties/>
+  <testcase name="testScoreEvents_allIncrementsArePositive" classname="com.tarunguptaraja.realtimeleaderboard.engine.ScoreGeneratorTest" time="0.157"/>
+  <testcase name="testScoreEvents_areDeterministicWithSameSeed" classname="com.tarunguptaraja.realtimeleaderboard.engine.ScoreGeneratorTest" time="0.007"/>
+  <testcase name="testGetPlayers_returnsCorrectCount" classname="com.tarunguptaraja.realtimeleaderboard.engine.ScoreGeneratorTest" time="0.002"/>
+  <testcase name="testScoreEvents_areNotSameWithDifferentSeed" classname="com.tarunguptaraja.realtimeleaderboard.engine.ScoreGeneratorTest" time="0.006"/>
+  <testcase name="testScoreEvents_referenceValidPlayers" classname="com.tarunguptaraja.realtimeleaderboard.engine.ScoreGeneratorTest" time="0.005"/>
+  <system-out><![CDATA[[ScoreGen] Emitting: player=Arjun (id=player_4) increment=+22 ts=1781162493264
+[ScoreGen] Emitting: player=Ananya (id=player_11) increment=+28 ts=1781162493275
+[ScoreGen] Emitting: player=Dev (id=player_14) increment=+32 ts=1781162493275
+[ScoreGen] Emitting: player=Parth (id=player_16) increment=+43 ts=1781162493275
+[ScoreGen] Emitting: player=Parth (id=player_16) increment=+8 ts=1781162493275
+[ScoreGen] Emitting: player=Reyansh (id=player_5) increment=+28 ts=1781162493275
+[ScoreGen] Emitting: player=Ananya (id=player_11) increment=+27 ts=1781162493275
+[ScoreGen] Emitting: player=Vivaan (id=player_13) increment=+26 ts=1781162493275
+[ScoreGen] Emitting: player=Vihaan (id=player_2) increment=+15 ts=1781162493275
+[ScoreGen] Emitting: player=Ananya (id=player_11) increment=+42 ts=1781162493275
+[ScoreGen] Emitting: player=Reyansh (id=player_5) increment=+40 ts=1781162493275
+[ScoreGen] Emitting: player=Parth (id=player_16) increment=+38 ts=1781162493275
+[ScoreGen] Emitting: player=Shaurya (id=player_9) increment=+4 ts=1781162493276
+[ScoreGen] Emitting: player=Parth (id=player_16) increment=+21 ts=1781162493276
+[ScoreGen] Emitting: player=Arjun (id=player_4) increment=+43 ts=1781162493276
+[ScoreGen] Emitting: player=Aarav (id=player_1) increment=+32 ts=1781162493276
+[ScoreGen] Emitting: player=Rohan (id=player_17) increment=+14 ts=1781162493276
+[ScoreGen] Emitting: player=Ishaan (id=player_8) increment=+48 ts=1781162493276
+[ScoreGen] Emitting: player=Amit (id=player_19) increment=+12 ts=1781162493276
+[ScoreGen] Emitting: player=Aarav (id=player_1) increment=+32 ts=1781162493276
+[ScoreGen] Emitting: player=Rohan (id=player_17) increment=+42 ts=1781162493323
+[ScoreGen] Emitting: player=Shaurya (id=player_9) increment=+31 ts=1781162493323
+[ScoreGen] Emitting: player=Krishna (id=player_7) increment=+35 ts=1781162493323
+[ScoreGen] Emitting: player=Vihaan (id=player_2) increment=+4 ts=1781162493323
+[ScoreGen] Emitting: player=Parth (id=player_16) increment=+50 ts=1781162493323
+[ScoreGen] Emitting: player=Rohan (id=player_17) increment=+42 ts=1781162493324
+[ScoreGen] Emitting: player=Shaurya (id=player_9) increment=+31 ts=1781162493324
+[ScoreGen] Emitting: player=Krishna (id=player_7) increment=+35 ts=1781162493324
+[ScoreGen] Emitting: player=Vihaan (id=player_2) increment=+4 ts=1781162493324
+[ScoreGen] Emitting: player=Parth (id=player_16) increment=+50 ts=1781162493324
+[ScoreGen] Emitting: player=Ananya (id=player_11) increment=+45 ts=1781162493332
+[ScoreGen] Emitting: player=Rohan (id=player_17) increment=+7 ts=1781162493333
+[ScoreGen] Emitting: player=Rohan (id=player_17) increment=+42 ts=1781162493333
+[ScoreGen] Emitting: player=Amit (id=player_19) increment=+25 ts=1781162493333
+[ScoreGen] Emitting: player=Yash (id=player_18) increment=+37 ts=1781162493333
+[ScoreGen] Emitting: player=Dev (id=player_14) increment=+44 ts=1781162493333
+[ScoreGen] Emitting: player=Vihaan (id=player_2) increment=+26 ts=1781162493333
+[ScoreGen] Emitting: player=Aarav (id=player_1) increment=+17 ts=1781162493333
+[ScoreGen] Emitting: player=Ishaan (id=player_8) increment=+42 ts=1781162493334
+[ScoreGen] Emitting: player=Diya (id=player_12) increment=+22 ts=1781162493334
+[ScoreGen] Emitting: player=Amit (id=player_19) increment=+34 ts=1781162493334
+[ScoreGen] Emitting: player=Rohan (id=player_17) increment=+40 ts=1781162493335
+[ScoreGen] Emitting: player=Vihaan (id=player_2) increment=+25 ts=1781162493335
+[ScoreGen] Emitting: player=Aditya (id=player_3) increment=+47 ts=1781162493335
+[ScoreGen] Emitting: player=Sai (id=player_6) increment=+19 ts=1781162493335
+[ScoreGen] Emitting: player=Ananya (id=player_11) increment=+50 ts=1781162493335
+[ScoreGen] Emitting: player=Ishaan (id=player_8) increment=+15 ts=1781162493335
+[ScoreGen] Emitting: player=Diya (id=player_12) increment=+3 ts=1781162493335
+[ScoreGen] Emitting: player=Ishaan (id=player_8) increment=+11 ts=1781162493335
+[ScoreGen] Emitting: player=Aditya (id=player_3) increment=+25 ts=1781162493335
+[ScoreGen] Emitting: player=Ishaan (id=player_8) increment=+31 ts=1781162493338
+[ScoreGen] Emitting: player=Ananya (id=player_11) increment=+2 ts=1781162493338
+[ScoreGen] Emitting: player=Atharv (id=player_15) increment=+8 ts=1781162493338
+[ScoreGen] Emitting: player=Rohan (id=player_17) increment=+39 ts=1781162493338
+[ScoreGen] Emitting: player=Sai (id=player_6) increment=+45 ts=1781162493338
+[ScoreGen] Emitting: player=Rohan (id=player_17) increment=+24 ts=1781162493338
+[ScoreGen] Emitting: player=Rohan (id=player_17) increment=+47 ts=1781162493339
+[ScoreGen] Emitting: player=Reyansh (id=player_5) increment=+48 ts=1781162493339
+[ScoreGen] Emitting: player=Atharv (id=player_15) increment=+29 ts=1781162493339
+[ScoreGen] Emitting: player=Diya (id=player_12) increment=+26 ts=1781162493339
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

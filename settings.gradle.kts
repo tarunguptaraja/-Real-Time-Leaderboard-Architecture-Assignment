@@ -24,3 +24,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "RealTime Leaderboard"
 include(":app")
+include(":engine")
+include(":domain")
+
