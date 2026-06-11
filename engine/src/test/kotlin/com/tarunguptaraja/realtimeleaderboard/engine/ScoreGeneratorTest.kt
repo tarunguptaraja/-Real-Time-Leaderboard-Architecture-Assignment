@@ -13,7 +13,7 @@ class ScoreGeneratorTest {
         val generator = DefaultScoreGenerator()
         val players = generator.getPlayers()
         assertThat(players).hasSize(20)
-        assertThat(players.first().name).isEqualTo("Aarav")
+        assertThat(players.first().name).isEqualTo("Tarun")
     }
 
     @Test

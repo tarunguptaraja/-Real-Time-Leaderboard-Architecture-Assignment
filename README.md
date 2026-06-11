@@ -23,7 +23,6 @@ To build the debug package:
 ```bash
 ./gradlew assembleDebug
 ```
-
 ---
 
 ## Module Responsibilities
@@ -76,3 +75,11 @@ The application follows Clean Architecture principles combined with MVVM:
 2. **Incremental Updates**: Use a self-balancing binary search tree (like a Red-Black tree) or skip list to update rankings in `O(log N)` rather than sorting the full list on every event.
 3. **Batching**: Debounce or batch incoming score events so the leaderboard recomputes at fixed intervals (e.g. once per second) rather than on every individual event, saving battery.
 4. **WebSocket/gRPC Integration**: Connect to a live backend rather than relying on local simulation.
+
+---
+
+## Technical Documentation
+
+* [Architecture Design & Technical Decisions](ARCHITECTURE.md)
+* [Live Tournament Anti-Cheat Strategy](ANTI_CHEAT.md)
+

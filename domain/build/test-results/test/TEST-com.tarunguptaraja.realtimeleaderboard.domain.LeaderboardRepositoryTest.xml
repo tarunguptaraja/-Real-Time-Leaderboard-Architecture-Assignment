@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tarunguptaraja.realtimeleaderboard.domain.LeaderboardRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-11T07:21:29.915Z" hostname="LAPTOP-ITCJA2MM" time="0.197">
+<testsuite name="com.tarunguptaraja.realtimeleaderboard.domain.LeaderboardRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-11T07:47:20.857Z" hostname="LAPTOP-ITCJA2MM" time="0.337">
   <properties/>
-  <testcase name="testIntegration_generatorToRepositoryToRankingEngine" classname="com.tarunguptaraja.realtimeleaderboard.domain.LeaderboardRepositoryTest" time="0.193"/>
-  <system-out><![CDATA[[ScoreGen] Emitting: player=Dev (id=player_14) increment=+41 ts=1781162490086
-[ScoreGen] Emitting: player=Vihaan (id=player_2) increment=+3 ts=1781162490104
+  <testcase name="testIntegration_generatorToRepositoryToRankingEngine" classname="com.tarunguptaraja.realtimeleaderboard.domain.LeaderboardRepositoryTest" time="0.329"/>
+  <system-out><![CDATA[[ScoreGen] Emitting: player=Dev (id=player_14) increment=+41 ts=1781164041148
+[ScoreGen] Emitting: player=Tanishka (id=player_2) increment=+3 ts=1781164041179
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
